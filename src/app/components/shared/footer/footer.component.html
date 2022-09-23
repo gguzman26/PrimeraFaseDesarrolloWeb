@@ -1,10 +1,6 @@
 <footer>
-    <div class="container">
-        <a class="like" href="#">
-        <img src="assets/img/thumb-up.png" alt="" width="50" height="50" class="imgLike">
-        <a class="dislike" href="#" >
-            <img src="assets/img/dislike.png" alt="" width="50" height="50" class="imgDislike">    
-        </a>
-    </a>
+    <div class="container mb-2"> 
+        <button class="btn btn-lg" (click)="like()"><i class="fa fa-thumbs-up"></i></button> <strong>{{likeCount}}</strong>
+        <button class="btn btn-lg" (click)="deslike()"><i class="fa fa-thumbs-down"></i></button><strong>{{deslikeCount}}</strong>
     </div>
 </footer>
