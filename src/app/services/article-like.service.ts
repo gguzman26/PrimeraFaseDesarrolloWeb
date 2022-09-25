@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/internal/Observable';
 })
 export class ArticleLikeService {
 
-  private baseUrl = 'http://localhost:8080';  // URL to web api
+  private baseUrl = 'http://localhost:8880/backend/';  // URL to web api
 
   constructor(
     private http: HttpClient) { }
