@@ -14,7 +14,7 @@ import { initializeKeycloak } from '../app/utility/app.init';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    ArticleComponent
+    
   ],
   imports: [
     BrowserModule,

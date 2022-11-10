@@ -1,7 +1,10 @@
+<h1>Hola mundo</h1>
+
 <app-navbar></app-navbar>
 <div class="row row-cols-3 row-cols-md-4">
-  <app-article *ngFor="let item of articles; let i = index" [attr.data-index]="i" [article]="item"></app-article>
+  <!-- <app-article *ngFor="let item of articles; let i = index" [attr.data-index]="i" [article]="item"></app-article> -->
+  <router-outlet></router-outlet>
 </div>
 <div>
   <app-footer></app-footer>
-</div>
+</div> 

@@ -15,12 +15,12 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.getAllArticles()
+    //this.getAllArticles()
   }
 
   getAllArticles() {
-    this.articleService.getArticles().subscribe(articles => {
-      this.articles = articles;
-    });
+    // this.articleService.getArticles().subscribe(articles => {
+    //   this.articles = articles;
+    // });
   }
 }

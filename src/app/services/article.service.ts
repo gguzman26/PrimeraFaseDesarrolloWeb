@@ -11,9 +11,11 @@ export class ArticleService {
 
   constructor(
     private http: HttpClient) { }
-
+ 
   /** GET articles from the server */
   getArticles(): Observable<any[]> {
     return this.http.get<any[]>(this.articleUrl)
-  }
+  
+}
+  
 }
