@@ -11,16 +11,16 @@ export class AppComponent implements OnInit{
   articles: any = [];
 
   constructor(private articleService: ArticleService) {
-    //
+    
   }
 
   ngOnInit(): void {
-    //this.getAllArticles()
+    this.getAllArticles()
   }
 
   getAllArticles() {
-    // this.articleService.getArticles().subscribe(articles => {
-    //   this.articles = articles;
-    // });
+    this.articleService.getArticles().subscribe(articles => {
+    this.articles = articles;
+     });
   }
 }

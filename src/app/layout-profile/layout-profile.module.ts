@@ -12,7 +12,6 @@ import { ArticleComponent } from '../components/article/article.component';
   declarations: [ProfileComponent, ArticleComponent],
   imports: [
     CommonModule,
-    
     LayoutProfileRoutingModule
   ],
   providers : [ArticleService]
